@@ -1,10 +1,8 @@
 
 public class TestaContaEAgencia {
 	public static void main ( String [] args ) {
-		Agencia a = new Agencia ();
-		Conta c = new Conta ();
-
-		a. numero = 178;
+		Agencia a = new Agencia (178);
+		Conta c = new Conta (a);
 
 		c. numero = 123;
 		c. saldo = 1000.0;

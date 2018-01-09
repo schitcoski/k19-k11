@@ -1,7 +1,8 @@
 
 public class TestaMetodosConta {
 public static void main(String[] args) {
-	Conta c = new Conta();
+	Agencia a = new Agencia (1234) ;
+	Conta c = new Conta ( a ) ;
 	
 	System.out.println("Chamando o método deposita passando o valor  1000");
 	c.deposita(1000);
