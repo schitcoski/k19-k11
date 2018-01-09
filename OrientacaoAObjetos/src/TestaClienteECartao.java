@@ -2,12 +2,11 @@
 public class TestaClienteECartao {
 	public static void main(String[] args) {
 		Cliente c = new Cliente();
-		CartaoDeCredito cdc = new CartaoDeCredito ();
+		CartaoDeCredito cdc = new CartaoDeCredito (111111);
 
 		c. nome = " Rafael Cosentino ";
 		c. codigo = 123;
 
-		cdc . numero = 111111;
 		cdc . dataDeValidade = " 12/12/18 ";
 
 		System . out. println (" Dados do cliente ");
